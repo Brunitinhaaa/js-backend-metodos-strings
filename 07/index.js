@@ -1,0 +1,7 @@
+const email = "jose@cubos.academy";
+
+if (email.includes("@") && email.includes(".") && email.indexOf(".") !== 0 && email.indexOf(".") !== email.length - 1) {
+    console.log("E-mail válido");
+} else {
+    console.log("E-mail inválido");
+}
